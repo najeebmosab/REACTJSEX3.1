@@ -4,9 +4,15 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const data = ["hello", "world"];
+  const number1 = 5;
+  const number2 =6;
+  const string = "I love React!"
   return (
     <div className="App">
+      <h2>{data[0]+" "+data[1]}</h2>
+      <h2>{number1+number2}</h2>
+      <h2>{string}</h2>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
